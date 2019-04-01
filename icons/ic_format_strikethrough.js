@@ -1,0 +1,1 @@
+export const ic_format_strikethrough = { "viewBox": "0 0 18 18", "children": [{"name":"path","attribs":{"d":"M8 15h2v-4H8v4zM4 2v2h4v3h2V4h4V2H4zm-1 8h12V8H3v2z"},"children":[]}] };

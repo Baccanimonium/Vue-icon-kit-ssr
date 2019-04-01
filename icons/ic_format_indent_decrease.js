@@ -1,0 +1,1 @@
+export const ic_format_indent_decrease = { "viewBox": "0 0 18 18", "children": [{"name":"path","attribs":{"d":"M8 12h8v-2H8v2zm0-4h8V6H8v2zm8 6H2v2h14v-2zM2 9l3.5 3.5v-7L2 9zm0-7v2h14V2H2z"},"children":[]}] };

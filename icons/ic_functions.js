@@ -1,0 +1,1 @@
+export const ic_functions = { "viewBox": "0 0 18 18", "children": [{"name":"path","attribs":{"d":"M14 2H4v1.8L9.5 9 4 14.2V16h10v-2H7.1L12 9 7.1 4H14z"},"children":[]}] };

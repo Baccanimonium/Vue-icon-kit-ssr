@@ -1,0 +1,1 @@
+export const ic_arrow_drop_down = { "viewBox": "0 0 18 18", "children": [{"name":"path","attribs":{"d":"M5 8l4 4 4-4z"},"children":[]}] };

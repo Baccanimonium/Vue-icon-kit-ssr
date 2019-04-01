@@ -1,0 +1,1 @@
+export const ic_format_line_spacing = { "viewBox": "0 0 18 18", "children": [{"name":"path","attribs":{"d":"M9 15h9v-2H9v2zM9 3v2h9V3H9zM7.5 5L4 1.5.5 5H3v8H.5L4 16.5 7.5 13H5V5h2.5zM9 10h9V8H9v2z"},"children":[]}] };

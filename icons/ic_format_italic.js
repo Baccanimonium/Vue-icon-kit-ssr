@@ -1,0 +1,1 @@
+export const ic_format_italic = { "viewBox": "0 0 18 18", "children": [{"name":"path","attribs":{"d":"M7 2v2h2.58l-3.66 8H3v2h8v-2H8.42l3.66-8H15V2z"},"children":[]}] };

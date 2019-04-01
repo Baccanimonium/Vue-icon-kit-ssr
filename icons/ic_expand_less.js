@@ -1,0 +1,1 @@
+export const ic_expand_less = { "viewBox": "0 0 18 18", "children": [{"name":"path","attribs":{"d":"M9 6l-4.5 4.5 1.06 1.06L9 8.12l3.44 3.44 1.06-1.06z"},"children":[]}] };

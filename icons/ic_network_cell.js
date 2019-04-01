@@ -1,0 +1,1 @@
+export const ic_network_cell = { "viewBox": "0 0 18 18", "children": [{"name":"path","attribs":{"opacity":".3","d":"M1 16h15V1z"},"children":[]},{"name":"path","attribs":{"d":"M1 16h11V5z"},"children":[]}] };

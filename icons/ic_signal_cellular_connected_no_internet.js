@@ -1,0 +1,1 @@
+export const ic_signal_cellular_connected_no_internet = { "viewBox": "0 0 18 18", "children": [{"name":"path","attribs":{"d":"M12 5h4V1zm0 11V5L1 16z","opacity":".3"},"children":[]},{"name":"path","attribs":{"d":"M14 16h2v-2h-2v2zm0-9v5h2V7h-2z"},"children":[]}] };

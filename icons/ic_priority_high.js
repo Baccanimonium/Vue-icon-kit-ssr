@@ -1,0 +1,1 @@
+export const ic_priority_high = { "viewBox": "0 0 12 12", "children": [{"name":"circle","attribs":{"cx":"6","cy":"10","r":"1"},"children":[]},{"name":"path","attribs":{"d":"M5 2h2v6H5z"},"children":[]}] };

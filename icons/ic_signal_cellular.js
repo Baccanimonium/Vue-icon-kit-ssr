@@ -1,0 +1,1 @@
+export const ic_signal_cellular = { "viewBox": "0 0 18 18", "children": [{"name":"path","attribs":{"opacity":".3","d":"M1 16h15V1z"},"children":[]}] };

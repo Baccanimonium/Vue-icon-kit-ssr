@@ -1,0 +1,1 @@
+export const ic_error = { "viewBox": "0 0 18 18", "children": [{"name":"path","attribs":{"d":"M9 1.03c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zM10 13H8v-2h2v2zm0-3H8V5h2v5z"},"children":[]}] };

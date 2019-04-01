@@ -1,0 +1,1 @@
+export const ic_vertical_align_top = { "viewBox": "0 0 18 18", "children": [{"name":"path","attribs":{"d":"M3 2v2h12V2H3zm2.5 7H8v7h2V9h2.5L9 5.5 5.5 9z"},"children":[]}] };

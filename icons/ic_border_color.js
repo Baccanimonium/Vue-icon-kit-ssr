@@ -1,0 +1,1 @@
+export const ic_border_color = { "viewBox": "0 0 18 18", "children": [{"name":"path","attribs":{"opacity":".36","d":"M0 15h18v3H0z"},"children":[]},{"name":"path","attribs":{"d":"M13.38 5.5L10.5 2.62 3 10.12V13h2.88l7.5-7.5zm2.47-2.48c.2-.2.2-.51 0-.71L13.68.14c-.2-.2-.51-.2-.71 0L11.62 1.5l2.88 2.88 1.35-1.36z"},"children":[]}] };
