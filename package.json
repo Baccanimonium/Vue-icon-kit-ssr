@@ -8,12 +8,14 @@
     "build": "npm run build:server -- --silent && npm run build:client -- --no-clean --silent",
     "build:client": "vue-cli-service build",
     "build:server": "cross-env WEBPACK_TARGET=node vue-cli-service build",
+    "parseIcon": "node inconsBundle/",
     "start": "node scripts/start",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "express": "^4.16.4",
     "http-proxy-middleware": "^0.19.1",
+    "svgson": "^3.1.0",
     "vue": "2.5.17",
     "vue-router": "^3.0.1",
     "vue-server-renderer": "2.5.17"
