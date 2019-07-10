@@ -26,7 +26,7 @@ async function readFiles(dirname) {
 							fs.mkdirSync(dirname)
 						}
 						if (!fs.existsSync(`${dirname}/parsedIcons`)) fs.mkdirSync(`${dirname}/parsedIcons`)
-						await fs.promises.writeFile(`${dirname}/parsedIcons/${normalizedFileName}.js`, `export const ${normalizedFileName} = { "viewBox": "${viewBox}", "children": ${JSON.stringify(children)} };`)
+						await fs.promises.writeFile(`${dirname}/parsedIcons/${normalizedFileName}.js`, `export const ${normalizedFileName} = { "viewBox": "${viewBox}", "children": ${JSON.stringify(children)} };`.replace(/attributes/gi, 'attribs'))
 					})
 				}
 			} catch (e) {
@@ -36,5 +36,5 @@ async function readFiles(dirname) {
 }
 
 // readFiles('mdi')
-readFiles('sticers')
+readFiles('lion')
 // readFiles('lion')
