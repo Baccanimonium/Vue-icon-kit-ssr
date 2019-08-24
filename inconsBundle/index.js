@@ -20,13 +20,13 @@ async function readFiles(dirname) {
 					}, [])
 						.forEach(async (file) => {
 						const icon = await readIcon(file, directory)
-            const { attributes: {viewBox}, children } = await svgson.parse(icon.toString('ascii'))
+            const { attributes: {viewBox, width, height, xmlns, ...a}, children } = await svgson.parse(icon.toString('ascii'))
 						const normalizedFileName = file.match(/(.*)\.svg$/)[1].replace(/[^A-z]/gi, '')
 						if (!fs.existsSync(dirname)) {
 							fs.mkdirSync(dirname)
 						}
 						if (!fs.existsSync(`${dirname}/parsedIcons`)) fs.mkdirSync(`${dirname}/parsedIcons`)
-						await fs.promises.writeFile(`${dirname}/parsedIcons/${normalizedFileName}.js`, `export const ${normalizedFileName} = { "viewBox": "${viewBox}", "children": ${JSON.stringify(children)} };`.replace(/attributes/gi, 'attribs'))
+						await fs.promises.writeFile(`${dirname}/parsedIcons/${normalizedFileName}.js`, `export const ${normalizedFileName} = { "viewBox": "${viewBox}", "attributes": {${Object.entries(a).map(([key, val])=> `"${key}":"${val}"`).join(',')}}, "children": ${JSON.stringify(children)} };`.replace(/attributes/gi, 'attribs'))
 					})
 				}
 			} catch (e) {
